@@ -1,0 +1,19 @@
+<xml>
+
+    <files id="native-toolkit-enet" >
+
+        <compilerflag value="-I${NATIVE_TOOLKIT_PATH}/enet/include/"/>
+
+        <file name="${NATIVE_TOOLKIT_PATH}/enet/src/callbacks.c" />
+        <file name="${NATIVE_TOOLKIT_PATH}/enet/src/compress.c" />
+        <file name="${NATIVE_TOOLKIT_PATH}/enet/src/host.c" />
+        <file name="${NATIVE_TOOLKIT_PATH}/enet/src/list.c" />
+        <file name="${NATIVE_TOOLKIT_PATH}/enet/src/packet.c" />
+        <file name="${NATIVE_TOOLKIT_PATH}/enet/src/peer.c" />
+        <file name="${NATIVE_TOOLKIT_PATH}/enet/src/protocol.c" />
+        <file name="${NATIVE_TOOLKIT_PATH}/enet/src/unix.c" />
+        <file name="${NATIVE_TOOLKIT_PATH}/enet/src/win32.c" />
+
+    </files>
+
+</xml>
