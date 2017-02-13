@@ -2,6 +2,7 @@
 
     <files id="native-toolkit-enet" >
 
+        <cache value="1"/>
         <compilerflag value="-I${NATIVE_TOOLKIT_PATH}/enet/include/"/>
 
         <file name="${NATIVE_TOOLKIT_PATH}/enet/src/callbacks.c" />
